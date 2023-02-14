@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+Mobile images\mob.PNG
+Desktop images\desk.PNG
 
 ### Links
 

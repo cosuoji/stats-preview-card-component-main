@@ -1,0 +1,87 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+
+*/
+
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+h2 span{
+    color: hsl(277, 64%, 61%);
+}
+
+.stats p{
+    text-transform: uppercase;
+
+}
+
+.container{
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    width: 350px;
+    background-color: hsl(277, 64%, 61%);
+    border-radius: 15px 15px 15px 15px;
+    flex-direction: column;
+
+}
+
+
+.hero{
+    border-radius: 15px 15px 0 0 ;
+    background-image: url("../images/image-header-mobile.jpg");
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+.mainarea{
+    padding: 20px;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 0 0 10px 10px;
+}
+
+
+@media screen and (min-width:1200px) {
+   .container{
+    flex-flow: row;
+    text-align: left;
+    width: 1000px;
+    height: auto;
+   }
+
+   .stats{
+    display: flex;
+    justify-content: space-between;
+ 
+   }
+
+   .mainarea{
+    padding: 60px;
+    border-radius: 10px 0px 0 10px;
+   }
+
+   .hero{
+    border-radius: 0 15px 15px 15px;
+    background-image: url("../images/image-header-desktop.jpg");
+    background-size: cover;
+    height: auto;
+    opacity: .5;
+    order: 2;
+   }
+}
